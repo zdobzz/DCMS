@@ -1,0 +1,59 @@
+
+
+DCMS
+
+Data Centre management service
+
+
+
+
+
+Student name: David O’Beirne
+
+Student ID: 20119097
+
+
+
+
+
+
+
+
+
+Project description
+The Data Centre Management Service (DCMS) would manage to temperature and humidity levels in a Data Centre facility, including the various rooms within it. It would have various functions that assist with this purpose, including but not limited to, a lcd display, temperature sensor, humidity sensor and USB speaker.
+The main goals of this project are to:
+* Keep the temperature within certain limits and have automated measures in place to keep it that way, along with additional emergency functions that could be deployed in extreme circumstances. This would function similarly to a thermostat in 	a smart home environment.
+* Keep the humidity within certain limits and have automated measures in place to keep it that way, along with additional emergency functions that could be deployed in extreme circumstances. These measures would include the ability to issue commands to an IOT fan control system that would replace air in the given room.
+* These above values would then be displayed on the lcd panel on the SenseHAT as visual bars that display a green in the middle for ‘all good’ and then red at the ends of the bars for ‘not good’. The lcd display would also show emergency and warning messages as required and may also implement functionality to allow for different rooms temperature and humidity levels to be displayer iteratively.
+* A USB speaker would be included in the service to play emergency code alarms so that nearby employees could be made aware of the situation as it occurs.
+* There will also be a website to show these values and messages with additional functionality to manage the service with a user-friendly interface. A administrator menu would be included in the raspberry pi to be accessed through the Secure Socket Shell (SSH), the menu would be simplistic as it would only be viewable to the administrator of the system, additionally a simple badge-based security system could be added as a requirement to access this menu using a camera to scan the badge.
+Additional features that could be added at a later date during or after development are:
+* The aforementioned badge-based security access system.
+* Multi room temperature and humidity display on the lcd panel as described above.
+* A seismic sensor that could push emergency measures onto the system in extreme scenarios as this would be better suited for the service when deployed in area’s that can receive earthquakes or other similar disasters.
+* An advanced fire detection and prevention system using thermal cameras and fire suppression systems that are designed specifically for data centres.
+Resources
+Hardware planned for use during this project:
+* Raspberry pi 5
+* SenseHAT with included temperature and humidity sensors, a LCD display and USB and camera ports
+* Camera
+* IOT devices such as an AC system and various sensors
+* USB speaker
+Addition hardware not included in initial project:
+* Thermal camera
+* Seismic sensor
+* Fire suppression system
+Software planned for use during this project:
+* CISCO packet tracer
+* Linux ubuntu
+* Windows shell
+* Visual studio code
+Programming languages planned for use during this project:
+* Python
+* Bash
+* HTML
+* Javascript
+
+Github repository
+https://github.com/zdobzz/DCMS 
